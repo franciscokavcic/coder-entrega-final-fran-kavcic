@@ -140,7 +140,8 @@ header nav img.imheader {
 .article-contenedor-lgn {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
+  text-align: center;
   height: auto;
   opacity: 0.8;
 }
