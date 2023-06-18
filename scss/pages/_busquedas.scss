@@ -1,0 +1,63 @@
+body {
+    margin: 1em;
+      h1.bush{ 
+        margin-left:1em;
+        color: whitesmoke;
+        opacity: 0.80;
+      }
+    .bsdestino {
+        font-family: 'Roboto', sans-serif;
+        color: whitesmoke;
+        margin: 1em;
+        font-weight: 600;
+        display: inline-block;
+        
+        .iclass{
+            border-radius: 4px;
+            box-shadow: 0 0 5px whitesmoke;
+            margin-right: 5px;
+            margin-left: 5px;
+                
+
+        }
+
+        button {
+            border-radius: 4px;
+            width: 90px;
+            background-color: rgba(103, 106, 112, 0.84);
+            border-style: none;
+            font-family: 'Roboto', sans-serif;
+            color: whitesmoke;
+            box-shadow:0 0 10px rgba(237, 235, 235, 0.572);
+
+        }
+    }
+
+    .galery {
+        margin: 0.5em;
+        columns: 5 320px;
+        column-gap: 0.7em;
+
+        img {
+            width: 100%;
+            margin-bottom: 0.5em;
+            display: block;
+            outline: 2px solid rgba(219, 207, 207, 0.58);
+            transition: all 300ms;
+            position: relative;
+
+
+
+        }
+
+        img:hover {
+            transform: scale(0.95);
+
+        }
+    }
+}
+@media (max-width:775px){
+    h1.bush{
+         visibility: hidden;
+    }
+}
